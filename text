@@ -1,0 +1,178 @@
+    1  nano /etc/sudoers
+    2  ls
+    3  git clone https://github.com/npm/npm.git
+    4  cd npm/
+    5  sudo make install
+    6  node
+    7  ls
+    8  node
+    9  clear
+   10  logout
+   11  exit
+   12  mysql
+   13  sudo mysql
+   14  clear
+   15  ls
+   16  ctstat
+   17  clear
+   18  cd ..
+   19  ls
+   20  mysql
+   21  cd ..
+   22  ls
+   23  mysql
+   24  cd /var/www/html/
+   25  ls
+   26  mysql
+   27  sudo mysql
+   28  mysql danielhampikian 
+   29  clear
+   30  sudo yum update -y
+   31  sudo yum install -y php70 mysql56-server php70-mysqlnd
+   32  sql
+   33  mysql
+   34  mysql -u root -p
+   35  wget https://wordpress.org/latest.tar.gz
+   36  ls
+   37  tar -xzf latest.tar.gz
+   38   mysql -u root -p
+   39  cp wordpress/wp-config-sample.php wordpress/wp-config.php
+   40  vim wordpress/wp-config.php
+   41  ls
+   42  cd blog
+   43  ls
+   44  cd ..
+   45  ls
+   46  rm -rf blog
+   47  ls
+   48  vim nav.php 
+   49  ls
+   50  sudo service httpd restart
+   51  sudo chkconfig enable httpd && sudo chkconfig enable mysql
+   52  clear
+   53  ls
+   54  ls
+   55  cd meanstack/
+   56  ls
+   57  cd blog/
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd ..
+   62  ls
+   63  rm -rf meanstack/
+   64  rm -rf latest.tar.gz 
+   65  clear
+   66  ls
+   67  cd practice/
+   68  ls
+   69  cd ..
+   70  rm -rf practice/
+   71  ls
+   72  cd test
+   73  ls
+   74  cd ..
+   75  cd testMove/
+   76  ls
+   77  cd ..
+   78  ls
+   79  rm -rf testMove
+   80  clear
+   81  ls
+   82  cd talk_timer/
+   83  ls
+   84  cd ..
+   85  sl
+   86  ls
+   87  cd resume/
+   88  ls
+   89  cd ..
+   90  ls
+   91  cd js
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd gimm
+   96  ls
+   97  cd squarecircle/
+   98  ls
+   99  vim stylesheet.css 
+  100  vim squarecircle.js
+  101  ls
+  102  vim squarecircle.html `
+  103  ;
+  104  vim squarecircle.html
+  105  clear
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd ..
+  110  ls
+  111  clear
+  112  ls
+  113  rm -rf test
+  114  clear
+  115  ls
+  116  cp * test/
+  117  mkdir test
+  118  cp * test
+  119  rm -rf test
+  120  clear
+  121  ls
+  122  cd wordpress/
+  123  l
+  124  ls
+  125  cd ..
+  126  ls
+  127  clear
+  128  logout
+  129  exit
+  130  touch addscore.php
+  131  vim addscore.php 
+  132  chmod 644 addscore.php 
+  133  mkdir unity_server
+  134  mv addscore.php unity_server/
+  135  ls
+  136  cd unity_server/
+  137  ls
+  138  touch getscores.php
+  139  vim getscores.php 
+  140  cd ..
+  141  cd unity_server/
+  142  chmod 644 getscores.php 
+  143  cd ..
+  144  chmod 644 unity_server/
+  145  touch crossdomain.xml
+  146  chmod 644 crossdomain.xml 
+  147  clear
+  148  ls
+  149  vim crossdomain.xml 
+  150  chmod 644 crossdomain.xml 
+  151  clear
+  152  ls
+  153  cd unity_server/
+  154  ls
+  155  chmod 777 addscore.php 
+  156  chmod 777 getscores.php
+  157  cd ..
+  158  chmod 777 unity_server/
+  159  cd unity_server/
+  160  ls
+  161  clear
+  162  ls
+  163  chmod 644 addscore.php getscores.php 
+  164  ls
+  165  cd ..
+  166  ls
+  167  chmod 644 unity_server/
+  168  ls
+  169  clear
+  170  ls
+  171  chmod 2775 unity_server/
+  172  ls
+  173  clear
+  174  ls
+  175  chmod 775 uploads/
+  176  cd uploads/
+  177  cat history
+  178  history > text
